@@ -18,6 +18,6 @@ public class CalcolatriceTest {
     }
 
     public void testMoltiplicazione(){
-        assertTrue("SOMMA_CORRETTA",calcolatrice.moltiplicazione(10,2) == 20);
+        assertTrue("MOLTIPLICAZIONE_CORRETTA",calcolatrice.moltiplicazione(10,2) == 20);
     }
 }
